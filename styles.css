@@ -1,6 +1,512 @@
+:root {
+    --strongCyan: hsl(171, 66%, 44%);
+    --lightBlue: hsl(233, 100%, 69%);
+    --darkGrayishBlue: hsl(210, 10%, 33%);
+    --grayishBlue: hsl(201, 11%, 66%);
+}
+
+html {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+@media (min-width: 1025px) {
+
+    header {
+        background-image: url(images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+    }
+
+    h1 {
+        color:  var(--darkGrayishBlue);
+        font-size: 3.5rem;
+        margin: 0px;
+    }
+
+    h2 {
+        color:  var(--darkGrayishBlue);
+        font-size: 2.5rem;
+        margin: 0px;
+    }
+
+    h3 {
+        color:  var(--darkGrayishBlue);
+        font-size: 2.5rem;
+        margin: 0px;
+    }
 
 
+    p {
+        color:  var(--grayishBlue);
+        font-size: 1.5rem;
+    }
 
+    .topPart {
+        padding-top: 150px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .topPart1 {
+        text-align: center;
+        align-items: center;
+    }
+
+    .topPart1 img {
+        height: 100%;
+        width: 175px;
+        margin-bottom: 50px;
+    }
+
+    .topPart2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .topPart2 a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .topPart2 a  p{
+        text-decoration: none;
+        color: white;
+    }
+
+    .iosButton {
+        padding: 1px 50px 1px 50px;
+        border-radius: 60px;
+        background-color: var(--strongCyan);
+        box-shadow: 0px 0px 10px var(--strongCyan);
+        margin-right: 15px;
+    }
+
+    .macButton {
+        padding: 1px 50px 1px 50px;
+        border-radius: 60px;
+        background-color: var(--lightBlue);
+        box-shadow: 0px 0px 10px var(--lightBlue);
+        margin-left: 15px;
+    }
+
+    .topPart3 {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .secondPart {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .monitor {
+        margin-right: 15px;
+        margin-left: 50px;
+    }
+
+    .textOnRight {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .textOnRight h3 {
+        margin-top: 50px;
+    }
+
+    .thirdPart {
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .thirdPart img {
+        margin-top: 100px;
+        height: 100%;
+        width: 1300px;
+    }
+
+    .fourthPart {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .upperPart {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        flex-basis: auto;
+    }
+
+    .upperPartIn {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 50px 50px 50px 50px;
+        flex: 1;
+    }
+
+    .upperPartIn img {
+        height: 75%;
+        width: 50px;
+        margin-bottom: 25px;
+    }
+
+    .bottomPart {
+        margin-top: 150px;
+        margin-bottom: 150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .bottomPart img{
+        height: 100%;
+        width: 175px;
+    }
+
+    .fifthPart {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 200px;
+        margin-top: 40px;
+    }
+
+    .buttons a {
+        text-decoration: none;
+    }
+
+    .buttons p {
+        color: white;
+    }
+
+    footer {
+        background-color: #f5f6f8;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .logo img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .links a {
+        text-decoration: none;
+        margin-right: 50px;
+        font-size: 2rem;
+        color: var(--darkGrayishBlue);
+    }
+
+    .socials img {
+        margin-right: 50px;
+        height: 100%;
+        width: 75px;
+    }
+
+    .iosButton:hover {
+        background-color: #5dccbb;
+    }
+
+    .macButton:hover {
+        background-color: #8698fd;
+    }
+
+    .links a:hover {
+        color: var(--strongCyan);
+    }
+
+    .socials img:hover {
+        color: var(--strongCyan);
+    }
+}
+
+@media (max-width: 768px), screen and (orientation: portrait) {
+
+    h1 {
+        color:  var(--darkGrayishBlue);
+        font-size: 2rem;
+        margin: 0px;
+    }
+
+    h2 {
+        color:  var(--darkGrayishBlue);
+        font-size: 2rem;
+        margin: 0px;
+    }
+
+    h3 {
+        color:  var(--darkGrayishBlue);
+        font-size: 2rem;
+        margin: 0px;
+    }
+
+
+    p {
+        color:  var(--grayishBlue);
+        font-size: 1rem;
+    }
+
+    header {
+        background-image: url(images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .topPart {
+        padding-top: 150px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .topPart1 {
+        text-align: center;
+        align-items: center;
+    }
+
+    .topPart1 img {
+        height: 100%;
+        width: 175px;
+        margin-bottom: 50px;
+    }
+
+    .topPart2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 150px;
+    }
+
+    .topPart2 a {
+        margin-top: 25px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .topPart2 a  p{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    .iosButton {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 1px 50px 1px 50px;
+        border-radius: 60px;
+        background-color: var(--strongCyan);
+        box-shadow: 0px 0px 10px var(--strongCyan);
+    }
+
+    .macButton {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 1px 50px 1px 50px;
+        border-radius: 60px;
+        background-color: var(--lightBlue);
+        box-shadow: 0px 0px 10px var(--lightBlue);
+    }
+
+    .topPart3 {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .secondPart {
+        flex-direction: column;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .secondPart img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .textOnRight {
+        text-align: center;
+        align-items: center;
+    }
+
+    .textOnRight h3 {
+        margin-top: 50px;
+    }
+
+    .thirdPart {
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .thirdPart img {
+        margin-top: 50px;
+        margin-bottom: 150px;
+        height: 100%;
+        width: 120%;
+    }
+
+    .fourthPart {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .upperPart {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        flex-basis: auto;
+    }
+
+    .upperPartIn {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 50px 50px 50px 50px;
+        flex: 1;
+    }
+
+    .upperPartIn img {
+        height: 75%;
+        width: 50px;
+        margin-bottom: 25px;
+    }
+
+    .bottomPart {
+        margin-top: 150px;
+        margin-bottom: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .bottomPart img{
+        margin-bottom: 60px;
+        height: 100%;
+        width: 175px;
+    }
+
+    .fifthPart {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 200px;
+        margin-top: 40px;
+    }
+
+    .buttons a {
+        text-decoration: none;
+        margin-bottom: 25px;
+    }
+
+    .buttons p {
+        color: white;
+    }
+
+    footer {
+        background-color: #f5f6f8;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .logo img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links a {
+        text-decoration: none;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 2rem;
+        color: var(--darkGrayishBlue);
+    }
+
+    .socials img {
+        height: 100%;
+        width: 40px;
+    }
+
+    .iosButton:hover {
+        background-color: #5dccbb;
+    }
+
+    .macButton:hover {
+        background-color: #8698fd;
+    }
+
+    .links a:hover {
+        color: var(--strongCyan);
+    }
+
+    .socials img:hover {
+        color: var(--strongCyan);
+    }
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

@@ -4,12 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Clipboard landing page</title>
 
 </head>
 <body>
-
+  <p class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Gabriel Mack</a>.
+  </p>
+  <header>
   <div class="topPart">
     <div class="topPart1">
       <img src="images/logo.svg" alt="">
@@ -19,13 +26,13 @@
     </div> <!--/topPart1-->
 
     <div class="topPart2">
-      <a href="" class="iosButton">
-        <div>
+      <a href="">
+        <div class="iosButton">
           <p>Download for iOS</p>
         </div>
       </a>
-      <a href="" class="macButton">
-        <div>
+      <a href="">
+        <div class="macButton">
           <p> Download for Mac</p>
         </div>
       </a>
@@ -38,6 +45,7 @@
         devices. Our Mac and iOS apps will help you organize everything.</p>
     </div> <!--/topPart3-->
   </div> <!--/topPart-->
+  </header>
 
   <div class="secondPart">
     <div class="monitor">
@@ -45,59 +53,92 @@
     </div> <!--/monitor-->
 
     <div class="textOnRight">
-      <h2>Quick Search</h2>
-      <p>  Easily search your snippets by content, category, web address, application, and more.</p>
-      <h2>iCloud Sync</h2>
+      <h3>Quick Search</h3>
+      <p>Easily search your snippets by content, category, web address, application, and more.</p>
+      <h3>iCloud Sync</h3>
       <p>Instantly saves and syncs snippets across all your devices.</p>
-      <h2>Complete History</h2>
+      <h3>Complete History</h3>
       <p>Retrieve any snippets from the first moment you started using the app.</p>
     </div> <!--/textOnRight-->
   </div> <!--/secondPart-->
 
   <div class="thirdPart">
-
+    <h2>Access Clipboard anywhere</h2>
+    <p>Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
+    <img src="images/image-devices.png" alt="">
+    <h2>Supercharge your workflow</h2>
+    <p>We’ve got the tools to boost your productivity.</p>
   </div> <!--/thirdPart-->
 
-  Access Clipboard anywhere
+  <div class="fourthPart">
+    <div class="upperPart">
+      <div class="upperPartIn">
+        <img src="images/icon-blacklist.svg" alt="">
+        <h3>Create blacklists</h3>
+        <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+      </div>
+      <div class="upperPartIn">
+        <img src="images/icon-text.svg" alt="">
+        <h3>Plain text snippets</h3>
+        <p>Remove unwanted formatting from copied text for a consistent look.</p>
+      </div>
+      <div class="upperPartIn">
+        <img src="images/icon-preview.svg" alt="">
+        <h3>Sneak preview</h3>
+        <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+      </div> <!--/upperPart-->
+    </div> <!--/forthPart-->
 
-  Whether you’re on the go, or at your computer, you can access all your Clipboard 
-  snippets in a few simple clicks.
+    <div class="bottomPart">
+      <img src="images/logo-google.png" alt="">
+      <img src="images/logo-ibm.png" alt="">
+      <img src="images/logo-microsoft.png" alt="">
+      <img src="images/logo-hp.png" alt="">
+      <img src="images/logo-vector-graphics.png" alt="">
+    </div> <!--/bottomPart-->
+  </div> <!--/fourthPart-->
 
-  Supercharge your workflow
+  <div class="fifthPart">
+    <h2>Clipboard for iOS and Mac OS</h2>
+    <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
+    <div class="buttons">
+      <a href="" class="iosButton">
+        <div>
+          <p>Download for iOS</p>
+        </div>
+      </a>
+      <a href="" class="macButton">
+        <div>
+          <p>Download for Mac</p>
+        </div>
+      </a>
+    </div> <!--/buttons-->
+  </div> <!--/fifthPart-->
 
-  We’ve got the tools to boost your productivity.
-
-  Create blacklists
-
-  Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
-
-  Plain text snippets
-
-  Remove unwanted formatting from copied text for a consistent look.
-
-  Sneak preview
-
-  Quick preview of all snippets on your Clipboard for easy access.
-
-  Clipboard for iOS and Mac OS
-
-  Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
-  and you’re ready to start adding to your clipboard.
-
-  Download for iOS
-  Download for Mac
-
-  FAQs
-  Contact Us
-  Privacy Policy
-  Press Kit
-  Install Guide
-  
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+    <div class="logo">
+      <img src="images/logo.svg" alt="">
+    </div>
+    
+    <div class="links">
+      <a href="">FAQs</a>
+      <a href="">Contact Us</a>
+      <a href="">Privacy Policy</a>
+      <a href="">Press Kit</a>
+      <a href="">Install Guide</a>
+    </div> <!--/links-->
+
+    <div class="socials">
+      <a href="">
+        <img src="images/icon-facebook.svg" alt="">
+      </a>
+      <a href="">
+        <img src="images/icon-twitter.svg" alt="">
+      </a>
+      <a href="">
+        <img src="images/icon-instagram.svg" alt="">
+      </a> 
+    </div> <!--/socials-->
   </footer>
 </body>
 </html>
